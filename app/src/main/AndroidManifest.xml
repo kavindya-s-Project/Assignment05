@@ -9,8 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment05">
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ContactUs"></activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".FindLocation" />
+        <activity android:name=".SuccessStories" />
+        <activity android:name=".Donations" />
+        <activity
+            android:name=".ui.login.Donations"
+            android:label="@string/title_activity_donations" />
+        <activity android:name=".NewsAndEvents" />
+        <activity android:name=".LatestPosts" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
