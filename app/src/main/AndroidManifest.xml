@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment05">
-        <activity android:name=".ContactUs"></activity>
+        <activity android:name=".SignUp"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ContactUs" />
         <activity android:name=".AboutUs" />
         <activity android:name=".FindLocation" />
         <activity android:name=".SuccessStories" />
